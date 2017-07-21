@@ -1,0 +1,12 @@
+##  Outline
+Base is the heart of the whole device, which likes bus interchange station, receives commonds from upper side (User) and send commonds to bottom side (modules) and arranges them to cooperate with each other. Main connection methods are bluetooth and I2C modules.
+
+## Components
+The components include 
+1. built-in battery (I used 2200mAh for iPhone 6s plus case,something like this https://item.taobao.com/item.htm?spm=a230r.1.14.109.ebb2eb2vSH2IU&id=530629070604&ns=1&abbucket=11#detail), ensure as thin as possible.
+2. Xiaomi battery control module(https://item.taobao.com/item.htm?spm=a1z09.2.0.0.1f30a53fQe1JCi&id=520136885308&_u=l1mb4an572c1) output current is around 2.3A, similar battery control module can also be used (depends on your design).
+3.Main MCU, arduino mini, ATMega328P 5V/16M
+4.lightning port with IC chips.
+5.CC2541 bluetooth
+
+## 3D Schematic diagram and Assimbly figure can be shown in another file
