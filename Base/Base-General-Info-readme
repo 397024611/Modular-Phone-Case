@@ -9,4 +9,7 @@ The components include
 4.lightning port with IC chips.
 5.CC2541 bluetooth
 
-## 3D Schematic diagram and Assimbly figure can be shown in another file
+## 3D Schematic diagram, logic diagram and Assimbly figure can be shown in another file
+
+## how it works
+In software side, each module has its coresspoding option within feature selection menu, these are also pre-setting addresses for each feature option, it can be considered as unique module ID as well. When any option button is pressed which means the coressponding feature is selected, then the pre-setting address will send from base and attempt to communicate with coressponding modules, if the module does not exist, no responding, otherwise, connection succeed.
